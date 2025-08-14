@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(111, 101, 101);
+}
+#outer{
+    margin-top: 50px;
+margin-left: 200px;
+    background-color: white;
+    width: 700px;
+    height: 670px;
+}
+
+#inner1{
+background-image: url("images/Kedarnath_Temple_in_Rainy_season.jpg.webp");
+background-size: contain;
+width: 450px;
+height: 350px;
+position: relative;
+left: 120px;
+top: 50px;
+}
+#box1{
+    
+    font-size: 30px;
+      display: inline;
+      margin-right: 60px;
+      border: 2px solid black;
+      position: absolute;
+      top: 370px;
+}
+
+#box2{
+      font-size: 30px;
+      display: inline;
+        border: 2px solid black;
+           position: absolute;
+      top: 370px;
+      left: 300px;
+}
+#box3{
+    position: absolute;
+    top: 460px;
+}
+button{
+position: relative;
+top: 12px;
+left: 200px;
+    font-size: 20px;
+    background-color: rgb(68, 201, 224);
+}
