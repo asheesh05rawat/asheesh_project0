@@ -1,0 +1,106 @@
+
+// A IPL CARDS GAME ---------------------------------------------------------------------------------------
+// HTML CODE --------------------------------------------------------------------------------------------
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+    <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+    <div class="main">
+       
+            <div id="cards" class="card1"><img src="https://wallpapercave.com/wp/wp7469951.jpg" alt=""></div>
+            <div id="cards" class="card2"><img src="https://wallpaperaccess.com/full/4561383.jpg" alt=""></div>
+            <div id="cards" class="card3"><img src="https://tse3.mm.bing.net/th/id/OIP.c-gebMBk7xPQsNgSfHWZDAHaEK?pid=Api&P=0&h=180" alt=""></div>
+            <div id="cards" class="card4"><img src="https://tse4.mm.bing.net/th/id/OIP.OIlLT_fmWlQpiz_OBMX32QHaEK?pid=Api&P=0&h=180" alt=""></div>
+             <div id="cards" class="card5"><img src="https://tse2.mm.bing.net/th/id/OIP.XrBsxWZaPpgb4laq-byR7gHaFj?pid=Api&P=0&h=180" alt=""></div>
+             <div id="cards" class="card6"><img src="https://tse3.mm.bing.net/th/id/OIP.2_WR6N-neF7O9wpvjb-8LwHaHa?pid=Api&P=0&h=180" alt=""></div>
+             <div id="cards" class="card7"><img src="https://tse1.mm.bing.net/th/id/OIP.eAR21AZ18CK8KsnkDQFHuwHaEK?pid=Api&P=0&h=180" alt=""></div>
+        </div>
+
+
+
+</div>
+
+</body>
+</html>
+
+
+
+
+// CSS CODE FOR THE SAME---------------------------------------------------------------------------------------------------------
+
+
+*{
+    height: 100%;
+    width: 100%;
+}
+.main{
+       height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#cards{
+    border: 6px solid;
+    border-radius: 8%;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 280px;
+    left: 600px;
+}
+
+.card1{
+z-index: 7;
+}
+
+.card2{
+    z-index: 6;
+    rotate: -10deg;
+}
+
+
+.card3{
+    z-index: 5;
+    rotate: -40deg;
+}
+
+
+.card4{
+    z-index: 4;
+    rotate: -70deg;
+}
+.card5{
+    z-index: 3;
+    rotate: 100deg;
+}
+.card6{
+    z-index: 2;
+    rotate: 130deg;
+}
+.card7{
+    z-index: 1;
+    rotate: 160deg;
+}
+
+
+#cards:hover{
+     box-shadow: 5px 5px 5px 3px blue;
+     z-index: 10;
+      rotate: 0deg;
+}
+.card1:hover{
+    
+img{
+    ima;
+    
+}
+
