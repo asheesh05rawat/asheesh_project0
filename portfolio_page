@@ -1,0 +1,189 @@
+
+# HTML CODE --------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="protfolio.css">
+</head>
+<body>
+    <div class="start">
+    <div class="main">
+
+        <header>
+            <div class="photo"></div>
+            <div class="content1">ASHEESH RAWAT
+
+                <div class="but">
+                  <button class="but1">follow</button>
+              <button class="but2"> message</button>
+              </div>
+            </div>
+            
+
+             
+               
+            
+
+        </header>
+
+
+
+
+</div>  <! MAIN ENDING------------------------->
+
+
+
+    </div>  
+    
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+# CSS CODE --------------------------------------------------------------------------------------------------------------------------------------------------
+
+*{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+.start{
+   height: 100%;
+    width: 100%;
+    background-color: rgb(190, 186, 186);
+}
+
+
+
+.main{
+  height: 100%;
+    width: 100%;
+      border: 1px solid rgb(245, 245, 245);
+          height: 560px;
+    width: 500px;
+     position: relative;
+  top: 40px;
+  left: 500px;
+  border-radius: 12%;
+  background-color: #b9f1f4;
+   box-shadow: 10px 10px 20px rgb(8, 8, 16);
+}
+
+.photo{
+    border-radius: 50%;
+    border: 5px solid rgb(128, 43, 43);
+      height: 220px;
+    width: 220px;
+    position: relative;
+  top: 40px;
+  left: 140px;
+
+}
+
+.content1{
+  font-size: 30px;
+  font-family: cursive;
+  position: relative;
+top: 55px;
+  left: 120px;
+  
+}
+
+button{
+  width: 72px;
+  height: 60px;
+  border-radius: 50%;
+
+}
+
+
+.but{
+  position: relative;
+top: 20px;
+  left: 0px;
+  display: flex;
+ 
+  
+}
+.but1{
+  margin-right: 140px;
+ font-size: 15px;
+  font-family: cursive;
+    background-color: rgb(223, 151, 56);
+color: black;
+}
+
+
+.but2{
+
+color: black;
+ font-size: 15px;
+  font-family: cursive;
+    background-color: rgb(223, 151, 56);
+}
+
+
+/* animations-----------------*/
+
+.main:hover{
+  box-shadow: 8px 8px 12px blue;
+   transform: scale(1.1,1.1);
+  
+}
+   
+.photo:hover{
+ transform: scale(1.1,1.1);
+}
+
+.but1:hover{
+  background-color: rgb(232, 139, 39);
+   transform: scale(1.1,1.1);
+       color: white;
+       background-color: black;
+   
+}
+.but2:hover{
+  background-color: rgb(223, 151, 56);
+   transform: scale(1.1,1.1);
+    color: white;
+       background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
